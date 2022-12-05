@@ -11,4 +11,4 @@ if [[ ! -f "$ZSH_CACHE_DIR/completions/_restic" ]]; then
   _comps[restic]=_restic
 fi
 
-restic generate --zsh-completion "$ZSH_CACHE_DIR/completions/_restic" &|
+restic generate --zsh-completion "$ZSH_CACHE_DIR/completions/_restic" &>/dev/null
